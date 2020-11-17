@@ -1,5 +1,6 @@
 
 -- https://en.wikibooks.org/wiki/SQL_Exercises/The_computer_store
+
 -- 1. Select the names of all the products in the store.
 
 SELECT * FROM products;
@@ -50,3 +51,35 @@ WHERE products.manufacturer = manufacturers.code;
 SELECT *
 FROM products INNER JOIN manufacturers
 ON products.manufacturer = manufacturers.code;
+
+-- 11. Select the product name, price, and manufacturer name of all the products.
+
+
+-- 12. Select the average price of each manufacturer's products, showing only the manufacturer's code.
+
+
+-- 13. Select the average price of each manufacturer's products, showing the manufacturer's name.
+
+
+-- 14. Select the names of manufacturer whose products have an average price larger than or equal to $150.
+
+
+-- 15. Select the name and price of the cheapest product.
+
+
+-- 16. Select the name of each manufacturer along with the name and price of its most expensive product.
+
+
+-- 17. Select the name of each manufacturer which have an average price above $145 and contain at least 2 different products.
+
+
+-- 18. Add a new product: Loudspeakers, $70, manufacturer 2.
+
+
+-- 19. Update the name of product 8 to "Laser Printer".
+
+
+-- 20. Apply a 10% discount to all products.
+
+
+-- 21. Apply a 10% discount to all products with a price larger than or equal to $120.
